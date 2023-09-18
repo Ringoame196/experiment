@@ -40,8 +40,10 @@ configure<BukkitPluginDescription> {
     apiVersion = "1." + pluginVersion.split(".")[1]
 
     commands {
-        "com.github.Ringoame196.MyCommandExecutor" {
-            description = "自分のオリジナルコマンド"
+        mycommand {
+            description = """
+                This is my original command.
+            """
         }
     }
 }
